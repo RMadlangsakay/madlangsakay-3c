@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<title>Landing Page</title>
+</head>
+
+<body>
+	<nav>
+		<div class="heading">Landing Page</div>
+		<span class="sideMenuButton"
+			onclick="openNavbar()">
+			☰
+		</span>
+
+		<div class="navbar">
+			<ul>
+				<li><a href="#Home">Home</a></li>
+				<li><a href="sign in.html">Login</a></li>
+				<li><a href="register.html">Sign Up</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Side navigation bar for
+		responsive website -->
+	<div class="sideNavigationBar"
+		id="sideNavigationBar">
+		<a href="#" class="closeButton"
+			onclick="closeNavbar()">
+			
+		</a>
+		<a href="#">Home</a>
+		<a href="sign in.html">Login</a>
+		<a href="register.html">Sign Up</a>
+	</div>
+
+	<!-- Content -->
+	<div class="line" id="Home">
+		<div class="side1">
+			<h1>CALL OF DUTY MOBILE</h1>
+			<button>
+				<a href=
+				"play.google.com/store/apps/details?id=com.garena.game.codm&hl=en&gl=US&pli=1">
+					Explore More
+				</a>
+			</button>
+		</div>
+		<div class="side2">
+			<img src="codbg.jpg"
+				width="600">
+		</div>
+	</div>
+
+	<section class="about" id="My Projects">
+		<div class="content">
+			<div class="boxes">
+				<div class="box">
+					<div class="topic">
+						<a href="" target="_blank">
+							ACTIVISION
+						</a>
+					</div>
+					<p>
+						Activision Publishing, Inc. is an American video game publisher based in Santa Monica, California.
+						 It serves as the publishing business for its 
+						parent company, Activision Blizzard, 
+						and consists of several subsidiary studios
+					</p>
+				</div>
+				<div class="box">
+
+					<div class="topic">
+						<a href="" target="_blank">
+							CODM
+						</a>
+					</div>
+					<p>
+						Call of Duty: Mobile is a free-to-play first-person shooter video
+						 game developed by TiMi Studio Group and published by 
+						 Activision for Android and iOS.
+					</p>
+				</div>
+
+				<div class="box">
+					<div class="topic">
+						<a href="" target="_blank">
+							GARENA
+						</a>
+					</div>
+					<p>
+						Garena is a Singaporean game developer and publisher of free online games.
+						 It is the digital entertainment arm of parent company Sea Ltd, 
+						 which was formerly named Garena.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+
+	<script src="index.js"></script>
+</body>
+
+</html>
